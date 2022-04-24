@@ -1,4 +1,4 @@
-# 以太坊智能合约课
+# 以太坊智能合约之第一个合约
 ## 第01课
 ### Remix工具地址：
 https://remix.ethereum.org/
