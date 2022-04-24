@@ -1,0 +1,9 @@
+# 将被 Git 忽略
+build/
+.vscode/
+node_modules/
+.idea/
+target/
+cache/
+artifacts/
+*.log
