@@ -1,26 +1,3 @@
-# 以太坊web3前端实战
-
-## 实战1
-- 链接Metamask
-- 定义Provider
-- 实例化Web3
-- 读取Metamask的当前账号和网络ID
-- 切换网络
-### 初始化项目,如果没有create-react-app请先安装
-```
-npx create-react-app my-web3
-cd my-web3
-npm start
-```
-### 安装web3
-```
-npm install yarn -g
-yarn add web3
-```
-### 修改App.js
-
-```javascript
-
 import React, { Component } from 'react';
 import Web3 from "web3";
 class App extends Component {
@@ -69,15 +46,3 @@ class App extends Component {
 }
 
 export default App;
-
-```
-### 运行代码
-```
-yarn start
-```
-
-
-## Web3中文文档
-- https://learnblockchain.cn/docs/web3js-0.2x/index.html
-## Metamask文档
-- https://docs.metamask.io/guide/getting-started.html

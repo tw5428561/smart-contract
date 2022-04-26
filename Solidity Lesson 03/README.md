@@ -1,5 +1,5 @@
 # 以太坊智能合约课
-## 第03课--部署智能合约
+## 3部署智能合约
 
 ### 1.部署到Truffle
 #### Truffle中文文档地址：
@@ -88,8 +88,7 @@ migrate
 ```
 #### 3.合约调用
 ```javascript
-var myCoin
-ExampleToken.deployed().then(function(instance){myCoin=instance})
+var myCoin ExampleToken.deployed().then(function(instance){myCoin=instance})
 ```
 
 
